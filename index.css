@@ -1,0 +1,120 @@
+body 
+{
+	font-family: verdana;
+	margin-top: 100px;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page__header
+{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background-color: black;
+	padding: 50px;
+}
+
+.page__header-h1
+{
+	color: white;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+.main-table
+{
+	background-image: linear-gradient(to right, lightblue, #a0aaba);
+	width: 100%;
+}
+
+.left-div
+{
+	width: 50%;
+	float: left;
+	padding-left: 40px;
+}
+
+.right-div
+{
+	width: 50%;
+	float: left;
+	padding-right: 40px;
+}
+
+.right
+{
+	float: right;
+}
+
+.left
+{
+	float: left;
+}
+
+.header
+{
+	text-align: center;
+	font-size: 25px;
+	margin: 0 0 15px 0;
+}
+
+.width-hundred
+{
+	width: 100%;
+}
+
+.thead-green
+{
+	font-size: 20px;
+	color: white;
+	background-color: green;
+}
+
+.padding-5
+{
+	padding: 5px;
+}
+
+.cell-border-1
+{
+	border-width: 1px;
+	border-color: lightgray;
+	border-style: solid;
+	border-collapse: collapse;
+}
+
+.left__btn
+{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	/*outline: none;*/
+	border: 0;
+	padding: 10px 25px;
+}
+
+.left__btn-submit-orange
+{
+	background-color: #ffa500;
+}
+
+.left__btn:hover
+{
+	background-color: #e59400;
+}
+
+.btn-border-1
+{	
+	border-radius: 6px;
+}
+
+p 
+{
+  font-size: 16px;
+}
