@@ -1,0 +1,72 @@
+:root {
+	--border-color: #4caf50;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	--background: url(index1.jpg) no-repeat;
+	--background-size: cover;
+	background-color: #2f4353;
+	background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+}
+
+.login-box {
+	width: 280px;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #000;
+}
+.login-box h1 {
+	float: left;
+	font-size: 40px;
+	color: white;
+	border-bottom: 6px solid var(--border-color);
+	margin-bottom: 50px;
+	padding: 13px 0px;
+}
+
+.login-box-textbox {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	border-bottom: 6px solid var(--border-color);
+	margin: 8px 0px;
+	padding: 8px 0px;
+}
+
+.login-box-textbox i {
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+
+.login-box-textbox input {
+	font-size: 18px;
+	float: left;
+	color: white;
+	background: none;
+	border: none;
+	outline: none;
+	width: 80%;
+	margin: 0px 10px;
+}
+
+.login-box-btn {
+	width: 100%;
+	background: none;
+	border: 2px solid var(--border-color);
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+
