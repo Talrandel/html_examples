@@ -1,0 +1,202 @@
+:root {
+	--first-white: #FFFFFF;
+	--second-red: #E65634;
+	--third-black: #222222;
+}
+
+* {
+	box-sizing: border-box;
+	--font-family: 'Droid Serif', 'Ubuntu','Quicksand', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--third-black);
+	text-align: left;
+}
+
+.separator {
+	border: 1px solid var(--second-red);
+	margin: 40px 0px;
+}
+
+.container {
+	width: 1080;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
+
+.header {
+	max-width: 700px;
+	position:relative;
+}
+
+.header p {
+	color: var(--second-red);
+	font-family: 'Ubuntu';
+	font-size: 24px;
+	font-style: bold;
+	font-weight: 700;
+	letter-spacing: 10px;
+}
+
+.subheader {
+	max-width: 700px;
+	position: relative;
+}
+
+.subheader p {
+	color: var(--first-white);
+	font-family: 'Droid Serif';
+	font-size: 54px;
+	font-style: italic;
+	line-height: 1.6;
+	--font-weight: 500;
+}
+
+.main-text {
+	position: relative;
+	max-width: 500px;
+	margin-bottom: 50px;
+}
+
+.main-text p {
+	color: var(--first-white);
+	font-family: 'Ubuntu';
+	font-size: 22px;
+	line-height: 2;
+}
+
+.main-text b:after {
+	content: '';
+	display: block;
+	border-bottom: 1px solid var(--second-red);	
+	width: 160px;
+	left: 9%;
+	position: absolute;
+}
+
+.buttons {
+	max-width: 700px;
+	position: relative;
+	top: 50%;
+	margin-bottom: 40px;
+}
+
+.buttons-left {
+	color: var(--first-white);
+	background: var(--second-red);
+	margin-right: 40px;
+}
+
+.buttons-right {
+	color: var(--third-black);
+	background: var(--first-white);
+}
+
+.btn {
+	display: inline-block;
+	height: 66px;
+	width: 270px;
+	border: 0;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: center;
+	outline: 0;
+	transform: skew(-13deg);
+}
+
+.btn span {
+	font-family: 'Ubuntu';
+	font-size: 16px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	position: relative;
+	top:40%;
+	--transform: skew(13deg);
+}
+
+/* Fonts */
+.fonts {
+	max-width: 700px;
+	position: relative;
+	color: var(--first-white);
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.fonts-base {
+	position: relative;
+	width: 50%;
+	float: left;
+}
+
+.fonts-left {
+	font-family: 'Droid Serif';
+}
+
+.fonts-right {
+	font-family: 'Ubuntu';
+}
+
+.fonts-header {
+	font-size: 128px;
+}
+
+.fonts-name {
+	font-size: 40px;
+}
+
+.fonts-source {
+	font-size: 32px;
+}
+
+.colors {
+	max-width: 500px;
+	position: relative;
+	margin: 80px;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.colors-base {
+	width: 33%;
+	float: left;
+}
+
+.colors p {
+	color: var(--first-white);
+	font-family: 'Ubuntu';
+	font-size: 24px;
+	font-style: bold;
+	font-weight: 700;
+	margin: 15px;
+}
+
+.colors-rectangle {
+	display: block;
+	width: 120px;
+	height: 180px;
+	/* top: 25%; */
+	/* left: 25%; */
+	margin: 0 auto;
+}
+
+.colors-white {
+	background: var(--first-white);
+}
+
+.colors-red {
+	background: var(--second-red);
+}
+
+.colors-black {
+	background: var(--third-black);
+	border: 1px solid var(--first-white);
+}
+
