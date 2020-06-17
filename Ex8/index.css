@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+	--font-family: 'Droid Serif', 'Ubuntu','Quicksand', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	--align-items: center;
+}
+
+.container-item {
+  width: 100px;
+  height: 1000px;
+  --margin: 15px;
+  
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.item-1 {
+	order: 3;
+	background: lightgreen;
+}
+.item-2 {
+	order: 1;
+	background: lightblue;
+}
+.item-3 {
+	order: 2;
+	background: pink;
+}
+.item-4 {
+	order: 4;
+	background: #1f3ffb;
+}
+.item-5 {
+	order: 5;
+	background: #ff3acb;
+}
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+    width: 24px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: #143861;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #8FA465;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #8FAF15;
+}
