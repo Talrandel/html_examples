@@ -1,0 +1,52 @@
+@import "bourbon";
+@import url(https://fonts.googleapis.com/css?family=Lora|Lato:900);
+
+$heading:'Lato';
+$body:'Lora';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background:#DC143C;
+	font-family:'Lora';
+	color:#444;
+	line-height:145%;
+	font-size:rem( 18px );
+}
+
+h2{
+	font-family:'Lato';
+	font-size:rem( 24px );
+}
+
+a{
+	color:darken( crimson, 15% );
+}
+
+.wrapper{
+	display:flex;
+	flex-flow:column wrap;
+	align-content:space-between;
+	height:2000px;
+	padding:30px;
+}
+.wrapper .block {    
+	width:31.5%;
+    margin:0px 0px 30px 0px;
+}
+
+.wrapper .block img {
+    width:100%;
+    display:block;
+}
+
+.wrapper .block .content{
+    display:block;
+    margin:0;
+    padding:5px 15px 15px 15px;
+    background:#f8f8f8;
+}
